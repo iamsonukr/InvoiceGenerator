@@ -1,0 +1,54 @@
+.invoice-container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .invoice-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  .invoice-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-seller,
+  .invoice-bill-ship > div {
+    width: 45%;
+  }
+  
+  .invoice-details {
+    margin-bottom: 20px;
+  }
+  
+  .invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-table th,
+  .invoice-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .invoice-footer {
+    margin-top: 20px;
+  }
+  
+  .signature-img {
+    width: 100px;
+    height: auto;
+  }
+  

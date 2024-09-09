@@ -1,0 +1,103 @@
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input, form select, form button {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+form input:focus, form select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+form button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button[type="button"] {
+  background-color: #28a745;
+  color: #fff;
+}
+
+button[type="button"]:hover {
+  background-color: #218838;
+}
+
+button[type="submit"] {
+  background-color: #17a2b8;
+}
+
+button[type="submit"]:hover {
+  background-color: #138496;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[placeholder] {
+  font-style: italic;
+}
+
+form h2 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+form button[type="button"] {
+  width: auto;
+  align-self: flex-start;
+}
+
+input[type="text"], input[type="number"], input[type="date"], select {
+  transition: border-color 0.3s ease;
+}
+
+form input, form select {
+  background-color: #fff;
+}
+
+form input::placeholder, form select::placeholder {
+  color: #999;
+}
